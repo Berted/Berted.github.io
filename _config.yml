@@ -27,6 +27,8 @@ github_username:  Berted
 disqus:
     shortname: berted-github-io
 
+google_analytics: UA-172154823-1
+
 # Build settings
 markdown: kramdown
 kramdown:
