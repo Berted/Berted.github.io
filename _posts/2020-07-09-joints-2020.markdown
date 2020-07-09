@@ -6,6 +6,36 @@ categories: competition local joints
 comments: true
 ---
 
-Thoughts on the contest and problem discussion coming soon.
+# Pre - contest
 
-The problemset can be accessed from [here](https://github.com/Berted/Berted.github.io/tree/master/_posts/joints-2020)
+Nama *3Gei1PC* itu datangnya karena ada 3 cowo, dan kalau onsite, komputernya cuma ada satu.
+Sadly, ga onsite because of a certain virus.
+
+Keep in mind bahwa dibawah ini semuanya berisi pembahasan solusi soal.
+
+# Penyisihan
+
+## A. String Palindrom Terkecil
+Abridged : 
+Diberikan $$N$$ characters, diperbolehkan mengganti beberapa karakter ke karakter lain. Tentukan string palindrom terkecil yang dapat dibentuk dari
+$$N$$ characters tersebut, dengan mengganti karakter sesedikit mungkin.
+
+Solusi : 
+Observasi bahwa pada string palindrom, terdapat paling banyak satu karakter yang banyaknya ganjil.
+
+Untuk minimal change, maka kita cukup mengganti salah satu karakter yang banyaknya ganjil ke karakter lain yang banyaknya ganjil. Sehingga, kedua karakter tersebut jumlahnya genap, lakukan tersebut berulang - ulang sampai sisa 1 karakter.
+
+Mengapa optimal : 
+Perhatikan bahwa pada satu operasi, kita akan mengubah paritas jumlah 2 karakter berbeda, sehingga menggantikan 2 karakter berbeda dengan paritas ganjil merupakan satu-satunya cara paling optimal karena keduanya menjadi paritas genap dan kita memerlukan sebanyak mungkin karakter menjadi paritas genap.
+
+Kemudian, untuk menghandle permintaan string minimum secara leksikografis, maka kita cukup mengganti karakter terbesar ganjil sekarang ke karakter terkecil ganjil sekarang, sampai tersisa 1 karakter ganjil. Kemudian kita cukup mengoutput karakter-karakternya secara berurutan, sehingga bagian pertamanya increasing, then bagian terakhirnya decreasing, bru diselipkan 1 karakter yang tersisa ditengah (jika ada).
+
+Misal : $$AAABBBCCCDDDEEE$$
+Menjadi : $$AAAABBBBCCCDDEE$$ (2 operasi)
+Output : $$AABBCDECEDCBBAA$$
+
+# Semi - final
+
+# Final
+
+The problemset can be accessed from [here](https://github.com/Berted/Berted.github.io/tree/master/_posts/joints-2020), not available in any online judges yet, as far as I know.
