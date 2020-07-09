@@ -24,10 +24,12 @@ github_username:  Berted
 
 # Build settings
 markdown: kramdown
+kramdown:
+   math_engine: mathjax
 
 theme: minima
 minima:
-  skin: dark
+  # skin: dark
 show_excerpts: true
 
 plugins:
