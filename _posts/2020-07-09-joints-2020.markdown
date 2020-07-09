@@ -16,7 +16,8 @@ Keep in mind bahwa dibawah ini semuanya berisi pembahasan solusi soal.
 # Penyisihan
 
 ## A. String Palindrom Terkecil
-Abridged : 
+Abridged Statement: 
+
 Diberikan $$N$$ characters, diperbolehkan mengganti beberapa karakter ke karakter lain. Tentukan string palindrom terkecil yang dapat dibentuk dari
 $$N$$ characters tersebut, dengan mengganti karakter sesedikit mungkin.
 
