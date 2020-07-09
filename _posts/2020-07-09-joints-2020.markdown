@@ -21,7 +21,7 @@ Diberikan $$N$$ characters, diperbolehkan mengganti beberapa karakter ke karakte
 $$N$$ characters tersebut, dengan mengganti karakter sesedikit mungkin.
 
 Solusi : 
-Observasi bahwa pada string palindrom, terdapat paling banyak satu karakter yang banyaknya ganjil.
+Perhatikan bahwa pada string palindrom, terdapat paling banyak satu karakter yang banyaknya ganjil.
 
 Untuk minimal change, maka kita cukup mengganti salah satu karakter yang banyaknya ganjil ke karakter lain yang banyaknya ganjil. Sehingga, kedua karakter tersebut jumlahnya genap, lakukan tersebut berulang - ulang sampai sisa 1 karakter.
 
