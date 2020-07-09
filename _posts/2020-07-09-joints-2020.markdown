@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "JOINTS 2020"
+date:   2020-07-09 21:37:00 +0700
+categories: competition local joints
+comments: true
+---
+
+Thoughts on the contest and problem discussion coming soon.
+
+The problemset can be accessed from [here](https://github.com/Berted/Berted.github.io/tree/master/_posts/joints-2020)
