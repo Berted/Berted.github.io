@@ -4,15 +4,15 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+My name is Edbert Geraldy Cangdinata
+I have interests in coding, competitive programming, computers, gaming, and weeb shit.
+Currently a high school student.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I commonly go by the username `Berted` on several online judges: 
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+- [CodeForces](https://codeforces.com/profile/Berted)
+- [AtCoder](https://atcoder.jp/users/Berted)
+- [Kattis](https://open.kattis.com/users/berted)
+- [TLX](https://tlx.toki.id/profiles/Berted)
 
-
-[jekyll-organization]: https://github.com/jekyll
+This blog will mostly be on random problems I find worth writing about.
