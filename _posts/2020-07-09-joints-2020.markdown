@@ -3,6 +3,7 @@ layout: post
 title:  "JOINTS 2020"
 date:   2020-07-09 21:37:00 +0700
 categories: competition local joints
+tags: joints competition
 comments: true
 ---
 
