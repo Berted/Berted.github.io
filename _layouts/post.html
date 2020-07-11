@@ -29,7 +29,7 @@ layout: default
       Tags: 
       {% for tag in page.tags %}
         {% capture tag_name %}{{ tag }}{% endcapture %}
-        <a class="no-underline" href="/tag/{{ tag_name }}"><code>{{ tag_name }}</code></a>
+        <a class="no-underline"><code>{{ tag_name }}</code></a>
       {% endfor %}
     </span>
   </header>
