@@ -31,6 +31,6 @@ Theoretically should be $$O(N^{\frac{3}{2}})$$, but runs fast with the inputs gi
 A simplified variant of a modification of NIM game. 
 
 If everyone played optimally, 
-then if $(A_1 \mod {N + 1}) \oplus  (A_2 \mod {N + 1}) \dots (A_K \mod {N + 1}) \neq 0$, then the first person who plays would be the winner. Otherwise, it would be the other player. We can construct a winning strategy by maintaining this XOR value. 
+then if $(A_1 \mod (N + 1)) \oplus  (A_2 \mod (N + 1)) \dots (A_K \mod (N + 1)) \neq 0$, then the first person who plays would be the winner. Otherwise, it would be the other player. We can construct a winning strategy by maintaining this XOR value. 
 
 It is much easier to implement this for $K = 1$ and $K = 2$.
