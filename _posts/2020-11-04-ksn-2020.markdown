@@ -21,12 +21,13 @@ The intended solution is probably some casework, but I was lazy, so I used the "
 
 This is [Lagrange's Four Square Theorem](https://en.wikipedia.org/wiki/Lagrange%27s_four-square_theorem). 
 
-All I did was iterate $$a, b, c$$ from the largest possible value, then check if a satisfying $$d$$ exists. Theoretically should be $$O(N^{\frac{3}{2}}})$$, but runs fast with the inputs given (or it actually is fast, I can't prove it).
+All I did was iterate $$a, b, c$$ from the largest possible value, then check if a satisfying $$d$$ exists. Theoretically should be $$O(N^{\frac{3}{2}})$$, but runs fast with the inputs given (or it actually is fast, I can't prove it).
 
 # Problem 0C - Taking Stones
 
 A simplified variant of a modification of NIM game. 
 
-If everyone played optimally, then if $(A_1 \pmod (N + 1)) \oplus  (A_2 \pmod (N + 1)) \dots (A_K \pmod (N + 1)) \neq 0$, then the first person who plays would be the winner. Otherwise, it would be the other player. We can construct a winning strategy by maintaining this XOR value. 
+If everyone played optimally, 
+then if $(A_1 \pmod N + 1) \oplus  (A_2 \pmod N + 1) \dots (A_K \pmod N + 1) \neq 0$, then the first person who plays would be the winner. Otherwise, it would be the other player. We can construct a winning strategy by maintaining this XOR value. 
 
 It is much easier to implement this for $K = 1$ and $K = 2$.
